@@ -197,22 +197,6 @@ O projeto usa `localStorage` e `sessionStorage` para manter estado entre navegac
 | `npm run dev` | Inicia o ambiente de desenvolvimento com Next.js. |
 | `npm run build` | Gera o build de producao. |
 | `npm run start` | Sobe a aplicacao a partir do build gerado. |
-| `npm run lint` | Executa o lint configurado no `package.json`. |
-
-### Estado atual do lint
-
-No estado atual deste repositorio, `npm run lint` falha porque o binario `eslint` nao esta instalado/configurado nas dependencias do projeto.
-
-Saida atual esperada:
-
-```bash
-> lensscore@0.1.0 lint
-> eslint .
-
-sh: 1: eslint: not found
-```
-
-Se quiser tornar o lint operacional, adicione e configure o ESLint antes de usar essa etapa como gate de validacao.
 
 ## Contrato das APIs externas
 
