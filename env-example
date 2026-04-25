@@ -1,0 +1,6 @@
+# Set to true to use mocked users, classes, and students locally.
+NEXT_PUBLIC_USE_MOCK_DATA=true
+
+# Copy these values into your local environment file and replace them with your own services.
+NEXT_PUBLIC_SCAN_API_BASE_URL=https://scanner.example.com
+NEXT_PUBLIC_API_BASE_URL=https://api.example.com
